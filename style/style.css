@@ -29,9 +29,12 @@
         border-radius: 5px;
         border: none;
 }
-.section-title{
-        font-weight: bold;
-        font-size: 35px;
+.bg-second-colour{
+        background-color: #FFF8F3;
+        .section-title{
+                font-weight: bold;
+                font-size: 35px;
+        }
         color: #181818;
 
 }
@@ -198,4 +201,24 @@ main section{
 }
 .buttne-design{
         margin: 30px;
+}
+footer{
+        margin-top: 200vh;
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+
+
+}
+.footer-container{
+        width: 50%;
+}
+footer input[type="text"], [type="Email"], textarea{
+        width: 460px;
+        height: 64px;
+        border-radius: 5px;
+        border: none;
+        background-color: white;
+        color: #757575; 
+        margin-bottom:24px;      
 }
