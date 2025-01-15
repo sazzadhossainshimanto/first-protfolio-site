@@ -222,3 +222,48 @@ footer input[type="text"], [type="Email"], textarea{
         color: #757575; 
         margin-bottom:24px;      
 }
+/* responsive design */
+.hide{
+        display: none;
+}
+
+@media screen and ( max-width: 576px){
+        .sikills-container, .resume-container, .section-items{
+                flex-direction: column;
+        }
+        .section-title{
+                font-size: 28px;
+        }
+        .section-description{
+                font-size: 16px;
+        }
+        .resume-column-title{
+                text-align: center;
+        }
+        .resume-container{
+                padding: 10px;
+        }
+        .btn-primary {
+                padding: 15px 30px;
+        }
+        footer{
+                margin-top: 700vh;
+                flex-direction: column;
+                padding: 20px;
+                justify-content: center;
+        }
+        .buttne-design{
+                justify-content: center;
+        }
+        .seciton-about{
+                padding: 40px;
+        }
+        .item-titel{
+                font-size: 20px;
+        }
+        .item-description {
+                font-size: 18px;
+        }
+        
+
+}
