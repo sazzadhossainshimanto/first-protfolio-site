@@ -247,7 +247,7 @@ footer input[type="text"], [type="Email"], textarea{
                 padding: 15px 30px;
         }
         footer{
-                margin-top: 600vh;
+                margin-top: 500vh;
                 flex-direction: column;
                 padding: 20px;
                 justify-content: center;
