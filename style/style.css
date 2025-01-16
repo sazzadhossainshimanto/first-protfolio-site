@@ -228,7 +228,7 @@ footer input[type="text"], [type="Email"], textarea{
 }
 
 @media screen and ( max-width: 576px){
-        .sikills-container, .resume-container, .section-items{
+        .sikills-container, .resume-container, .section-items, nav, .banner{
                 flex-direction: column;
         }
         .section-title{
@@ -245,9 +245,10 @@ footer input[type="text"], [type="Email"], textarea{
         }
         .btn-primary {
                 padding: 15px 30px;
+                margin-top: 20px;
         }
         footer{
-                margin-top: 500vh;
+                margin-top: 480vh;
                 flex-direction: column;
                 padding: 20px;
                 justify-content: center;
@@ -264,6 +265,28 @@ footer input[type="text"], [type="Email"], textarea{
         .item-description {
                 font-size: 18px;
         }
+        .banner{
+                margin: 20px;
+        }
+        .header{
+                background-image: none;
+        }
+        .banerr-profile {
+                width: 100%;
+                height: auto;
+        }
+        .banner-title{
+                font-size: 60px;
+        }
+        .banner-content {
+                width: auto;
+        }
         
+        footer input[type="text"],
+        [type="Email"],
+        textarea{
+                width: 330px;
+        }
+
 
 }
